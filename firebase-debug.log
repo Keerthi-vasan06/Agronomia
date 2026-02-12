@@ -1,0 +1,174 @@
+[debug] [2024-11-11T17:04:06.384Z] ----------------------------------------------------------------------
+[debug] [2024-11-11T17:04:06.386Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\A C E R\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-11-11T17:04:06.386Z] CLI Version:   13.23.1
+[debug] [2024-11-11T17:04:06.387Z] Platform:      win32
+[debug] [2024-11-11T17:04:06.387Z] Node Version:  v20.16.0
+[debug] [2024-11-11T17:04:06.387Z] Time:          Mon Nov 11 2024 22:34:06 GMT+0530 (India Standard Time)
+[debug] [2024-11-11T17:04:06.387Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-11-11T17:04:06.452Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-11-11T17:04:06.453Z] > authorizing via signed-in user (kvasan457@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\A C E R\Desktop\ReactProject\agronomia
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Account Setup
+[info] 
+[info] Which account do you want to use for this project? Choose an account or add a new one now
+[info] 
+[debug] [2024-11-11T17:04:23.748Z] setProjectAccount(C:\Users\A C E R\Desktop\ReactProject\agronomia, kvasan457@gmail.com)
+[info] 
+[info] +  Using account: kvasan457@gmail.com 
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-11-11T17:04:23.757Z] Using project from CLI flag: agronomia-4178c
+[debug] [2024-11-11T17:04:23.759Z] No OAuth tokens found
+[debug] [2024-11-11T17:04:23.759Z] No OAuth tokens found
+[debug] [2024-11-11T17:04:23.759Z] > refreshing access token with scopes: []
+[debug] [2024-11-11T17:04:23.761Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-11-11T17:04:23.761Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-11-11T17:04:24.179Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-11-11T17:04:24.179Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-11-11T17:04:24.187Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/agronomia-4178c [none]
+[debug] [2024-11-11T17:04:24.817Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/agronomia-4178c 403
+[debug] [2024-11-11T17:04:24.817Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/agronomia-4178c {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2024-11-11T17:04:24.818Z] Request to https://firebase.googleapis.com/v1beta1/projects/agronomia-4178c had HTTP Error: 403, The caller does not have permission
+[debug] [2024-11-11T17:04:25.146Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/agronomia-4178c had HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\A C E R\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:52:12)
+    at RetryOperation._fn (C:\Users\A C E R\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project agronomia-4178c. Please make sure the project exists and your account has permission to access it.
+[debug] [2024-11-11T17:07:55.738Z] ----------------------------------------------------------------------
+[debug] [2024-11-11T17:07:55.741Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\A C E R\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-11-11T17:07:55.742Z] CLI Version:   13.23.1
+[debug] [2024-11-11T17:07:55.742Z] Platform:      win32
+[debug] [2024-11-11T17:07:55.742Z] Node Version:  v20.16.0
+[debug] [2024-11-11T17:07:55.742Z] Time:          Mon Nov 11 2024 22:37:55 GMT+0530 (India Standard Time)
+[debug] [2024-11-11T17:07:55.742Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-11-11T17:07:55.811Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-11-11T17:07:55.811Z] > authorizing via signed-in user (kvasan457@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\A C E R\Desktop\ReactProject\agronomia
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Account Setup
+[info] 
+[info] Which account do you want to use for this project? Choose an account or add a new one now
+[info] 
+[debug] [2024-11-11T17:08:03.588Z] setProjectAccount(C:\Users\A C E R\Desktop\ReactProject\agronomia, kvasan457@gmail.com)
+[info] 
+[info] +  Using account: kvasan457@gmail.com 
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-11-11T17:08:03.598Z] Using project from CLI flag: agronomia-4178c
+[debug] [2024-11-11T17:08:03.599Z] No OAuth tokens found
+[debug] [2024-11-11T17:08:03.599Z] No OAuth tokens found
+[debug] [2024-11-11T17:08:03.599Z] > refreshing access token with scopes: []
+[debug] [2024-11-11T17:08:03.601Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-11-11T17:08:03.601Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-11-11T17:08:04.019Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-11-11T17:08:04.019Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-11-11T17:08:04.026Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/agronomia-4178c [none]
+[debug] [2024-11-11T17:08:04.639Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/agronomia-4178c 403
+[debug] [2024-11-11T17:08:04.639Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/agronomia-4178c {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2024-11-11T17:08:04.640Z] Request to https://firebase.googleapis.com/v1beta1/projects/agronomia-4178c had HTTP Error: 403, The caller does not have permission
+[debug] [2024-11-11T17:08:04.937Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/agronomia-4178c had HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\A C E R\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:52:12)
+    at RetryOperation._fn (C:\Users\A C E R\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project agronomia-4178c. Please make sure the project exists and your account has permission to access it.
+[debug] [2024-11-11T17:09:45.364Z] ----------------------------------------------------------------------
+[debug] [2024-11-11T17:09:45.368Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\A C E R\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-11-11T17:09:45.368Z] CLI Version:   13.23.1
+[debug] [2024-11-11T17:09:45.369Z] Platform:      win32
+[debug] [2024-11-11T17:09:45.369Z] Node Version:  v20.16.0
+[debug] [2024-11-11T17:09:45.369Z] Time:          Mon Nov 11 2024 22:39:45 GMT+0530 (India Standard Time)
+[debug] [2024-11-11T17:09:45.369Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-11-11T17:09:45.440Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-11-11T17:09:45.441Z] > authorizing via signed-in user (kvasan457@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\A C E R\Desktop\ReactProject\agronomia
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Account Setup
+[info] 
+[info] Which account do you want to use for this project? Choose an account or add a new one now
+[info] 
+[debug] [2024-11-11T17:09:53.366Z] setProjectAccount(C:\Users\A C E R\Desktop\ReactProject\agronomia, kvasan457@gmail.com)
+[info] 
+[info] +  Using account: kvasan457@gmail.com 
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-11-11T17:09:53.376Z] Using project from CLI flag: agronomia-4178c
+[debug] [2024-11-11T17:09:53.377Z] No OAuth tokens found
+[debug] [2024-11-11T17:09:53.377Z] No OAuth tokens found
+[debug] [2024-11-11T17:09:53.377Z] > refreshing access token with scopes: []
+[debug] [2024-11-11T17:09:53.379Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-11-11T17:09:53.379Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-11-11T17:09:53.736Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-11-11T17:09:53.736Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-11-11T17:09:53.741Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/agronomia-4178c [none]
+[debug] [2024-11-11T17:09:54.543Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/agronomia-4178c 403
+[debug] [2024-11-11T17:09:54.543Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/agronomia-4178c {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2024-11-11T17:09:54.543Z] Request to https://firebase.googleapis.com/v1beta1/projects/agronomia-4178c had HTTP Error: 403, The caller does not have permission
+[debug] [2024-11-11T17:09:54.726Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/agronomia-4178c had HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\A C E R\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:52:12)
+    at RetryOperation._fn (C:\Users\A C E R\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project agronomia-4178c. Please make sure the project exists and your account has permission to access it.
